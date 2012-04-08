@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4175C580152BC32300AA1A1C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4175C57F152BC32300AA1A1C /* Cocoa.framework */; };
+		4175C58A152BC32300AA1A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4175C588152BC32300AA1A1C /* InfoPlist.strings */; };
+		4175C58C152BC32300AA1A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175C58B152BC32300AA1A1C /* main.m */; };
+		4175C590152BC32300AA1A1C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4175C58E152BC32300AA1A1C /* Credits.rtf */; };
+		4175C593152BC32300AA1A1C /* JASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175C592152BC32300AA1A1C /* JASAppDelegate.m */; };
+		4175C596152BC32300AA1A1C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4175C594152BC32300AA1A1C /* MainMenu.xib */; };
+		4175C59E152BC70C00AA1A1C /* JASGeneticAlgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175C59D152BC70C00AA1A1C /* JASGeneticAlgo.m */; };
+		4175C5A4152C02F700AA1A1C /* JASChromosome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4175C5A3152C02F700AA1A1C /* JASChromosome.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4175C57B152BC32300AA1A1C /* SimpleGeneticAlgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeneticAlgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4175C57F152BC32300AA1A1C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4175C582152BC32300AA1A1C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4175C583152BC32300AA1A1C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4175C584152BC32300AA1A1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4175C587152BC32300AA1A1C /* SimpleGeneticAlgo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGeneticAlgo-Info.plist"; sourceTree = "<group>"; };
+		4175C589152BC32300AA1A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4175C58B152BC32300AA1A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4175C58D152BC32300AA1A1C /* SimpleGeneticAlgo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleGeneticAlgo-Prefix.pch"; sourceTree = "<group>"; };
+		4175C58F152BC32300AA1A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4175C591152BC32300AA1A1C /* JASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JASAppDelegate.h; sourceTree = "<group>"; };
+		4175C592152BC32300AA1A1C /* JASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JASAppDelegate.m; sourceTree = "<group>"; };
+		4175C595152BC32300AA1A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4175C59C152BC70C00AA1A1C /* JASGeneticAlgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASGeneticAlgo.h; sourceTree = "<group>"; };
+		4175C59D152BC70C00AA1A1C /* JASGeneticAlgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASGeneticAlgo.m; sourceTree = "<group>"; };
+		4175C5A2152C02F700AA1A1C /* JASChromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASChromosome.h; sourceTree = "<group>"; };
+		4175C5A3152C02F700AA1A1C /* JASChromosome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASChromosome.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4175C578152BC32300AA1A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4175C580152BC32300AA1A1C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4175C570152BC32300AA1A1C = {
+			isa = PBXGroup;
+			children = (
+				4175C585152BC32300AA1A1C /* SimpleGeneticAlgo */,
+				4175C57E152BC32300AA1A1C /* Frameworks */,
+				4175C57C152BC32300AA1A1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4175C57C152BC32300AA1A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4175C57B152BC32300AA1A1C /* SimpleGeneticAlgo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4175C57E152BC32300AA1A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4175C57F152BC32300AA1A1C /* Cocoa.framework */,
+				4175C581152BC32300AA1A1C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4175C581152BC32300AA1A1C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4175C582152BC32300AA1A1C /* AppKit.framework */,
+				4175C583152BC32300AA1A1C /* CoreData.framework */,
+				4175C584152BC32300AA1A1C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4175C585152BC32300AA1A1C /* SimpleGeneticAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				4175C586152BC32300AA1A1C /* Supporting Files */,
+				41C5EFC81531EB3C0016F25E /* UI */,
+				4175C5A2152C02F700AA1A1C /* JASChromosome.h */,
+				4175C5A3152C02F700AA1A1C /* JASChromosome.m */,
+				4175C59C152BC70C00AA1A1C /* JASGeneticAlgo.h */,
+				4175C59D152BC70C00AA1A1C /* JASGeneticAlgo.m */,
+			);
+			path = SimpleGeneticAlgo;
+			sourceTree = "<group>";
+		};
+		4175C586152BC32300AA1A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4175C587152BC32300AA1A1C /* SimpleGeneticAlgo-Info.plist */,
+				4175C588152BC32300AA1A1C /* InfoPlist.strings */,
+				4175C58B152BC32300AA1A1C /* main.m */,
+				4175C58D152BC32300AA1A1C /* SimpleGeneticAlgo-Prefix.pch */,
+				4175C58E152BC32300AA1A1C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C5EFC81531EB3C0016F25E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4175C591152BC32300AA1A1C /* JASAppDelegate.h */,
+				4175C592152BC32300AA1A1C /* JASAppDelegate.m */,
+				4175C594152BC32300AA1A1C /* MainMenu.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4175C57A152BC32300AA1A1C /* SimpleGeneticAlgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4175C599152BC32300AA1A1C /* Build configuration list for PBXNativeTarget "SimpleGeneticAlgo" */;
+			buildPhases = (
+				4175C577152BC32300AA1A1C /* Sources */,
+				4175C578152BC32300AA1A1C /* Frameworks */,
+				4175C579152BC32300AA1A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGeneticAlgo;
+			productName = SimpleGeneticAlgo;
+			productReference = 4175C57B152BC32300AA1A1C /* SimpleGeneticAlgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4175C572152BC32300AA1A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iJoshSmith;
+			};
+			buildConfigurationList = 4175C575152BC32300AA1A1C /* Build configuration list for PBXProject "SimpleGeneticAlgo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4175C570152BC32300AA1A1C;
+			productRefGroup = 4175C57C152BC32300AA1A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4175C57A152BC32300AA1A1C /* SimpleGeneticAlgo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4175C579152BC32300AA1A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4175C58A152BC32300AA1A1C /* InfoPlist.strings in Resources */,
+				4175C590152BC32300AA1A1C /* Credits.rtf in Resources */,
+				4175C596152BC32300AA1A1C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4175C577152BC32300AA1A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4175C58C152BC32300AA1A1C /* main.m in Sources */,
+				4175C593152BC32300AA1A1C /* JASAppDelegate.m in Sources */,
+				4175C59E152BC70C00AA1A1C /* JASGeneticAlgo.m in Sources */,
+				4175C5A4152C02F700AA1A1C /* JASChromosome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4175C588152BC32300AA1A1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4175C589152BC32300AA1A1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4175C58E152BC32300AA1A1C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4175C58F152BC32300AA1A1C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4175C594152BC32300AA1A1C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4175C595152BC32300AA1A1C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4175C597152BC32300AA1A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4175C598152BC32300AA1A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4175C59A152BC32300AA1A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGeneticAlgo/SimpleGeneticAlgo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGeneticAlgo/SimpleGeneticAlgo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4175C59B152BC32300AA1A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleGeneticAlgo/SimpleGeneticAlgo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleGeneticAlgo/SimpleGeneticAlgo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4175C575152BC32300AA1A1C /* Build configuration list for PBXProject "SimpleGeneticAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4175C597152BC32300AA1A1C /* Debug */,
+				4175C598152BC32300AA1A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4175C599152BC32300AA1A1C /* Build configuration list for PBXNativeTarget "SimpleGeneticAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4175C59A152BC32300AA1A1C /* Debug */,
+				4175C59B152BC32300AA1A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4175C572152BC32300AA1A1C /* Project object */;
+}
