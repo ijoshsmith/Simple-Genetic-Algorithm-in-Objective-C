@@ -111,14 +111,10 @@
 }
 
 - (void)shufflePopulation
-{
-    // Here is my special sauce that makes it all work.
-    // Shuffle the population slightly after each 
-    // generation to ensure that the chromosomes have 
-    // a chance to mate with multiple partners.
-    JASChromosome *last = [self.population lastObject];
-    [population removeLastObject];
-    [population insertObject:last atIndex:0];
+{    
+    for (int i = 0; i < population.count; i++) {
+        [population exchangeObjectAtIndex:i withObjectAtIndex:arc4random_uniform((u_int32_t)population.count)];
+    }
 }
 
 - (void)analyzePopulation
